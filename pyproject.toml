@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "glensing"
+version = "0.1.0"
+readme = "README.rst"
+authors = [
+  {name = "Diogo C. Ribeiro"}
+]
+license = {text = "MIT license"}
+dependencies = [
+  # Add your libraries here. Some typical examples:
+  "numpy >= 1.20",
+  "matplotlib >=3.7",
+  "pupy@git+https://github.com/diogoribeiro98/pupy"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.package-data]
+"*" = ["*.*"]
+

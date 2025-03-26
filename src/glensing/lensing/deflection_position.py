@@ -1,6 +1,6 @@
 import numpy as np
 from ..vector import vector, norm
-from ..physical_units import units
+import pupy as units
 
 from .einstein_radius import einstein_radius
 

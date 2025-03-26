@@ -1,5 +1,5 @@
 import numpy as np
-from ..physical_units import units
+import pupy as units
 
 def einstein_radius(
 		D_l,
